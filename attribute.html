@@ -1,0 +1,42 @@
+<!-- attrubute selectors:
+are used to target html elements based on the attrubutes name and attrubute values given for the specific html elements
+example:
+
+div[class="demo"]{
+    background-color: aqua;
+    }
+
+ /* targets the only class=sample attributes specified elements */
+div[class="sample"]{
+        background-color: blue;
+        }
+
+ /*targets all id  attributes specified elements */
+
+div[id]{
+    background-color: red;
+}
+/* targets omly id=test attributes specified elements */
+
+div[id="test"]{
+    background-color: yellow;
+} 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="attribute.css">
+</head>
+<body>
+    <div class="demo"> Lorem ipsum dolor sit amet.</div>
+    <div class="demo">Lorem ipsum dolor sit amet.</div>
+    <div class="sample">Lorem ipsum dolor sit amet.</div>
+    <div id="test">Lorem ipsum dolor sit amet.</div>
+    <div id="manja">Lorem ipsum dolor sit amet.</div>
+    <div id="dodo">Lorem ipsum dolor sit amet.</div>
+</body>
+</html>

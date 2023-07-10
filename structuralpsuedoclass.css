@@ -1,0 +1,25 @@
+section article:first-child{
+    color: aqua;
+    /* article1 */
+}
+section aside:last-child{
+    color: aqua;
+    /* aside3 */
+}
+section :first-of-type{
+    color: aqua;
+    /* article1 ,main1,aside1*/
+}
+section :last-of-type{
+    color: aqua;
+    /* aside3 */
+}
+section article:nth-child(2){
+    color:blue;
+    /* article2 */
+}
+section :nth-of-type(2){
+    color:blue;
+    /* article2,main2,aside2 */
+}
+

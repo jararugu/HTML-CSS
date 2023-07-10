@@ -1,0 +1,38 @@
+<!-- css specifity:
+ inline ,internal,extenal -> inline is priority
+  id,class,attribute,tagname -> id is priority
+   class,attribute -> attribute is priority
+   attribute,psuedoclass,psuedoelement -> all are in stay in one line
+
+
+NOTE:
+->among all the css selectors and the ways of declaring css non important(!impotant) property
+   is highly priortised
+->among external and internal css,the priority will be for the latest one or lter one
+-> universal selectors targets only untargeted properties of all html elements.
+
+Diffrence between Div and span
+  div
+-> by default of di is predefined as            -> there is no predefied  propery for span
+  display block
+-> margin and padding apply for div             ->margin top and padding top nad bottom are not applicable.
+in the all all side,
+
+-> hieght  and width can we specified                -> hieght and width cannot for span
+  for div
+
+
+--> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css_specificity.css">
+</head>
+<body>
+    <div class="demo" id="test">Lorem ipsum dolor sit amet.</div>
+</body>
+</html>

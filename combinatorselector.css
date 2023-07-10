@@ -1,0 +1,19 @@
+section aside{
+    /* space-> decedent : both direct and indirect child*/
+background-color: yellow;
+}
+section~aside{
+    /* ~ -> child selector:targets the only direct child */
+    background-color: blue;
+}
+section+article{
+    /* adjecent sibling selector:targets all  adjecent elements */
+    background-color: brown;
+}
+section~p{
+    /* adjecent sibling selector: targets only first adjecent elements */
+    background-color: blueviolet;
+}
+article+p{
+    background-color: red;
+}

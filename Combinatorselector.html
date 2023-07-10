@@ -1,0 +1,50 @@
+<!-- combinator  selector:
+  targets the html elements with the combination of tag name  or id and class names
+  1.decedent selectors : the symbol -> "space"
+  2. child selectors (direct child selectors) (>)
+  3. general sibling selector (~)
+  4. adjacent sibling selector (+) 
+
+1.decedent selectors : the symbol -> 
+  targets the both direct and indirect child
+
+2. child selectors:
+  targets the both direct  child 
+
+3. general sibling selector:
+   target only all adajacent elements
+
+4. adjacent sibling selector:
+    target only one adjacent elements-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="combinatorselector.css">
+</head>
+<body>
+    <section>
+        <article>sectiom -> Article 1</article>
+        <article>sectiom -> Article 2</article>
+        <main>
+            <article>section -> main article -> article1</article>
+            <article>section -> main article -> article2</article>
+            <!-- indirect child -->
+        </main>
+        <main>
+            <aside> section -> main -> Aside1</aside>
+            <aside> section -> main -> Aside2</aside>  
+              <!-- indirect  child-->
+        </main>
+        <aside>section -> Aside1</aside>
+        <aside>section -> Aside2</aside>
+        <!-- direct child  -->
+    </section>
+    <article>section -> adjacent -> Article1</article>
+    <article>section -> adjacent -> Article2</article>
+    <!-- sibling of section -->
+</body>
+</html>

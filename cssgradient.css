@@ -1,0 +1,51 @@
+/*  background gradients: date:10/07/2023
+ linear ,
+ radial,
+ conic */
+
+ /* radial gradient:: check out the difference between closest-site at some specified %30 %100
+     forthest-side: at 45% 40%
+     closest-corner: at 60% 55%
+     forthest-corner: at 60% 45% */
+
+div{
+
+    height: 400px;
+    width: 400px;
+    border: 5px solid red;
+    border-radius: 50%;
+    /* background-image: linear-gradient(to right, red, green, yellow); */
+    /* to top: towards top red color */
+     /* to bottom towards bottom color */
+          /* to right towards bottom color */
+     /* to left towards bottom color */
+    /* background-image: linear-gradient(90deg, red, green, yellow); */
+    /* using degree before color */
+    /* background-image: linear-gradient(90deg, red 30%, green 50%, yellow 80%); */
+    /* using degree and percentile before color */
+    /* background-image: repeating-linear-gradient(90deg, red 30%, green 50%, yellow 80%); */
+    /* above property shows repeating colors */
+    /* background-image:  radial-gradient(circle,  orange 30%,blue 50%,green 80%); */
+    /* background-image:  repeating-radial-gradient(circle,  orange 30%,blue 50%,green 80%); */
+    /* background-image:  conic-gradient( from 270deg, orange 30%,blue 50%,green 80%); */
+    background-image:  repeating-conic-gradient( from 270deg, orange 30%,blue 50%,green 80%);
+
+     /* at 30% -> fluetchvatin the horizontal value50%  */
+
+    animation-name: abc;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;  
+ }
+ @keyframes abc{
+     0%{
+         transform: rotateZ(0deg);
+     }
+     100%{
+         transform: rotateZ(299deg);
+     }
+     
+
+
+
+}

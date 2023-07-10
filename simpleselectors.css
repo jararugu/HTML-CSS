@@ -1,0 +1,23 @@
+#parai{
+    background-color: brown;
+}
+/* id selectors */
+.paragraph{
+    background-color: blue;
+}
+/* class selectors */
+.div{
+background-color: aqua;
+}
+/* tag name */
+
+p,div,.paragraph,h5{
+    background-color: brown;
+}
+/* grouping selectors */
+
+*{
+    background-color: blueviolet;
+    border: 2px solid magenta;
+}
+/* universal selectors */

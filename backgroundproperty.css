@@ -1,0 +1,61 @@
+/* /* div{
+    height:  500px;
+    width: 500px;
+    border: 5px dotted red;
+    background-color: blue;
+    /* background-image: url(/CSS/pexels-alex-azabache-3214944.jpg); */
+    /* background-size: 200px 200px; */
+    /* padding: 50px; */
+    /* font-size: 20px; */
+    /* background image size->500px->width 600-> hieght */
+    /* background image: width hieght
+       background image: horizontal verticle
+       backgroubd size: 200px 300px */
+     /* background-repeat: no-repeat;   */
+     /* dont show the repetation of image */
+     /* background-repeat: repeat-x; */
+     /* its shows the horizontal repetation of images */
+     /* background-repeat: repeat-y; */
+     /* its shows the verticle repetation of images  */
+    /* background-position: center; */
+    /* background-position: left; */
+    /* background-position:  top left;
+    background-position:  right;
+    background-position:  top right;
+    background-position: bottom ;
+    background-position:  bottom left ;
+    background-position:  bottom right; */
+    /* background-origin: border-box; */
+    /* background-origin:content-box ; */
+    /* overflow: scroll; */
+    /* unblock the overflow:scrool at the time of back-attachment:fixed
+    it will shows the viewport of the vanish */
+    /* background-attachment: scroll; (default)*/
+    /* attach to the along with the  element to the  text */
+    /* background-attachment: fixed; */
+    /* scroll: scroll along with the element
+       local: scroll along with the content of the element(elements element)
+       
+       fixed: scroll till the viewport of the element*/
+      /* background-clip: padding-box; */
+      /* background-clip: content-box; */
+      /* backgroung clip: 
+        -> border-box (default)
+        ->padding-box
+        -> contect-box */
+
+        /* assignmengt
+          difference between background-repeat: round
+           background-repeat:white-space: ;
+           
+          diffrence between background size contain and background size cover*/
+/* }  */
+div{
+    height: 500px;
+    width: 500px;
+    border: 5px solid red;
+    background-image: url(/CSS/pexels-alex-azabache-3214944.jpg),url(/CSS/pexels-greg-2418664.jpg),url(/CSS/pexels-matteo-badini-4064432.jpg);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: 200px 200px,200px 200px,200px 200px;
+    background-position: top left,center,bottom right;
+}

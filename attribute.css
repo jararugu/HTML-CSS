@@ -1,0 +1,21 @@
+div[class]{
+background-color: aqua;
+}
+/* targets the all class specified attributes */
+div[class="demo"]{
+    background-color: aqua;
+    }
+ /* targets the only class=sample attributes specified elements */
+div[class="sample"]{
+        background-color: blue;
+        }
+        
+
+ /*targets all id  attributes specified elements */
+div[id]{
+    background-color: red;
+}
+/* targets omly id=test attributes specified elements */
+div[id="test"]{
+    background-color: yellow;
+}

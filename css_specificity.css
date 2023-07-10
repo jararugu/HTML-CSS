@@ -1,0 +1,27 @@
+/* .demo{
+    background-color: aqua;
+} */
+/* #test{
+    background-color: red;
+    /* id is first priority */
+} */
+ .demo{
+    background-color: aqua;
+} 
+div{
+    background-color: yellow;
+
+}
+div[class]{
+    background-color: navy;
+    /* second is second priority -->attribute selectors */
+}
+/* psuedo element */
+
+div::first-line{
+    background-color: gold;
+}
+/* psuedoclass selector */
+div:hover{
+    background-color: green;
+}

@@ -1,0 +1,36 @@
+a:link{
+    color: yellowgreen;
+
+}
+
+a:visited{
+    color: #ffff00;
+}
+/* visted 
+link and visited only work on the anchor tag */
+
+a:hover{
+    color: red;
+    background-color: black;
+}
+/* poiting to the cursor */
+
+a:active{
+    color: pink;
+    /* at the time of active */
+}
+
+
+a:focus{
+    color: yellow; 
+     background-color: green; 
+    /*  based on user click event */
+}
+
+/* difference between focus and active
+   
+
+focus applys css  properties when the element                  active applys css property only at the time of active
+is taking input from the user                               (click event) 
+
+

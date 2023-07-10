@@ -1,0 +1,48 @@
+/* CSS: abrivated as Cascadding style sheet,where cascading means  poring or appalying style for html elements.
+---> three ways,we can provide  styling to   html elements
+1. inline css 2. internal css 3. External css
+Inline css:
+--> means declaring syle attribute in the opening tag of html element.
+internal css:
+--> means declaring  a style tag in the head session of html file.
+external css::
+--> creating new file with .css extension and linking that css file  to html file using link tag.
+--> which is declaring in head session of html file,where rel attribute specifies the relation between css and html file.
+--> href attribute holds  the external css file name as a value.
+
+
+selectors::
+--> css selectors are used to style html elements in specific format.in this we have 
+*. simple sectors
+**. combinator selectors
+***. attribute selectors
+****. psudo element selectors  
+*****. psuedo class selectors.
+
+
+*.simple slectors:
+  we have id,class,tag name,grouping,universal selectors.
+
+1. id selectors::
+--> is used to target individual html element .
+--> the symbol for id is: #
+
+2.class selectors:
+--> is usede to target multiple html elements.
+--> symbol for class is: .(dot)
+
+3.tagname selectors
+-->is used to target html element by the tag name itself
+
+4.grouping selectors:
+-->is used to target a group of html elements with thier tag name which are seperated by commas
+
+5.universal selectors:
+-->targets the untargted properties of an html all elements
+--> the symbol for universal is: *
+
+** combinator slecctors:
+-->
+
+
+*/

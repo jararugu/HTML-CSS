@@ -1,0 +1,44 @@
+div{
+    height: 200px;
+      width: 200ps ;
+      background-color: blue;
+      border-radius: opx 0px 0px 9px;
+
+
+}
+
+/* div{
+
+    height: 200px;
+    width: 200px;
+    border-width: 5px 10px 20px 30px;
+    border-style: solid groove dashed dotted ;
+    border-color: red green blueviolet magenta;
+} */
+/* div{
+
+    height: 200px;
+    width: 200px;
+    border-width: 5px 10px 20px 30px;
+    border-top: 10px groove green  ;
+    border-right: 5px dotted blueviolet ;
+    border-bottom: 7px dashed yellow;
+    border-left: 6px solid red;
+} */
+/* border-width:
+border-top-width:
+border-right-width:
+border-bottom-width:
+border-left-width: */
+
+
+/* border-style
+border-top-style
+border-right-style
+border-bottom-style
+border-left-style */
+
+
+
+
+
