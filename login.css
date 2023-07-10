@@ -1,0 +1,47 @@
+fieldset{
+    height: 250px;
+    width: 600px;
+    
+}
+label{
+    font-size: 30px;
+
+}
+.input_field{
+    height: 30px;
+    width: 300px;
+}
+.input_button{
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+}
+h1::first-letter{
+    color: aqua;
+    background-color: blue;
+    font-size: 50px;
+}
+h1::first-line{
+    color: blue;
+    background-color: aqua;
+}
+li::marker{
+    color: blue;
+    font-size: 20px;
+}
+label::before{
+    content: "*";
+    color: red;
+}
+.required::after{
+    content: "required";
+    color: red;
+}
+.condition::selection{
+    color: red;
+    background-color: black;
+
+}
+h1:hover{
+    color: red;
+}

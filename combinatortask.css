@@ -1,0 +1,32 @@
+#section_1{
+    height: 200px;
+    width: 900px;
+    border: 5px groove red;
+    background-color: blue;
+
+}
+#section_2{
+    height: 200px;
+    width: 900px;
+    border: 5px groove #00ff2a;
+    background-color: #ffae00;
+
+}
+/* body section_1~section_2{
+
+}
+body section_1+section_2{
+
+}
+body #section_1+#section2{
+
+
+    
+} */
+#art1{
+    border: 4px groove blueviolet;
+}
+#art2{
+    border: 4px groove red;
+}
+

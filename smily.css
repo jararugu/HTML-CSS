@@ -1,0 +1,70 @@
+section{
+    height: 500px;
+    width: 500px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50%;
+   
+}
+section nav{
+    height: 100px;
+    width: 450px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section nav aside{
+    height: 70px;
+    width: 70px;
+    
+    border-radius: 50%;
+}
+
+section main{
+    height: 100px;
+    width: 100px;
+    /* border: 3px solid magenta; */
+    background-color: black;
+    border-radius: 50%;
+}
+section article{
+    height: 100px;
+    width: 250px;
+    /* border: 3px solid yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    border-radius: 0px 0px 109px 117px;
+}
+section nav :nth-child(1){
+    background-color: aqua;
+}
+section nav :nth-child(2){
+    background-color: magenta;
+}
+section article aside{
+    height: 100px;
+    width: 80px;
+    /* border: 3px solid ; */
+    margin-top: 50px;
+    background-color: red;
+    border-radius: 0px  0px 45px 45px ;
+    display: none;
+}
+section nav:hover #eye1{
+    background-color: magenta;
+
+}
+section nav:hover #eye2{
+    background-color: magenta;
+
+}
+section:hover article aside{
+    display: block;
+}
+

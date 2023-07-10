@@ -1,0 +1,23 @@
+#guru{
+    background-color: blueviolet;
+    /* id selectors */
+}
+.raj{
+    background-color: aquamarine;
+}
+/* class selectors */
+.div{
+    background-color: brown;
+    /* tagname selectors */
+}
+p,.raj,div,h3{
+    background-color: chartreuse;
+    /* grouping selectors */
+
+}
+*{
+    background-color: chocolate;
+    border: 2px solid magenta;
+    /* universal selectors
+     */
+}
